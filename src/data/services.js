@@ -1,10 +1,12 @@
+import { getAssetUrl } from '../utils/assetUrl';
+
 export const services = [
   {
     id: 'bridal-mehendi',
     title: 'Bridal Mehendi',
     tag1: 'SIGNATURE ATELIER',
     tag2: 'Bespoke',
-    image: '/images/service_bridal.jpg',
+    image: getAssetUrl('/images/service_bridal.jpg'),
     description: 'Intricate personal love stories, customized wedding vow inscriptions, hyper-detailed royal figure portraits, and heirloom mandalas.',
     category: 'Bridal'
   },
@@ -13,7 +15,7 @@ export const services = [
     title: 'Wedding & Engagement',
     tag1: 'CELEBRATORY',
     tag2: 'Contemporary',
-    image: '/images/service_wedding.jpg',
+    image: getAssetUrl('/images/service_wedding.jpg'),
     description: 'Chic contemporary Indo-Western fusion, negative-space circular mandalas, and wrist cuff architecture designed for ring ceremonies.',
     category: 'Engagement'
   },
@@ -22,7 +24,7 @@ export const services = [
     title: 'Events & Sangeet',
     tag1: 'FESTIVE CROWD',
     tag2: 'Group Rate',
-    image: '/images/service_events.jpg',
+    image: getAssetUrl('/images/service_events.jpg'),
     description: 'Swift yet graceful application for wedding guests, bridesmaids, and cocktail soirees handled seamlessly by our team of certified artists.',
     category: 'Sangeet'
   },
@@ -31,7 +33,7 @@ export const services = [
     title: 'Traditional Marwari',
     tag1: 'HERITAGE CLASSIC',
     tag2: 'Full Arm',
-    image: '/images/service_marwari.jpg',
+    image: getAssetUrl('/images/service_marwari.jpg'),
     description: 'Dense heritage storytelling patterns, royal elephant processions, intricate jaali chequerboards, and ornate palanquin iconography.',
     category: 'Traditional'
   },
@@ -40,7 +42,7 @@ export const services = [
     title: 'Party & Occasions',
     tag1: 'SUBTLE CHARM',
     tag2: 'Speedy',
-    image: '/images/service_party.jpg',
+    image: getAssetUrl('/images/service_party.jpg'),
     description: 'Minimalist wrist cuffs, delicate single-finger trails, Arabic negative spacing, and subtle contemporary accents for birthdays and baby showers.',
     category: 'Party'
   },

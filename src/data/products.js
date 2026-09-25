@@ -1,3 +1,5 @@
+import { getAssetUrl } from '../utils/assetUrl';
+
 export const products = [
   {
     id: 'cone-single',
@@ -9,7 +11,7 @@ export const products = [
     rating: 4.9,
     reviewsCount: 1240,
     price: 50,
-    image: '/images/product_cone_single.jpg',
+    image: getAssetUrl('/images/product_cone_single.jpg'),
     description: 'Smooth application • Rich deep color • Freshly prepared every Monday.',
     longDescription: 'Our signature handcrafted henna cone made with 100% pure organic Sojat henna leaves, triple-cloth sifted for zero clogging and infused with premium Nilgiri eucalyptus essential oil. Delivers a deep mahogany stain that matures within 48 hours and lasts up to 2-3 weeks.',
     features: [
@@ -30,7 +32,7 @@ export const products = [
     rating: 5.0,
     reviewsCount: 890,
     price: 280,
-    image: '/images/product_cone_bridal.jpg',
+    image: getAssetUrl('/images/product_cone_bridal.jpg'),
     description: 'Triple-filtered micro-tip calibrated for intricate royal bridal figures and portraits.',
     longDescription: 'Specially designed for professional bridal mehendi artists and brides seeking flawless line consistency. The extra-fine 0.38mm micro-tip allows seamless creation of portraits, negative-space mandalas, and intricate jaali patterns with zero hand fatigue.',
     features: [
@@ -51,7 +53,7 @@ export const products = [
     rating: 4.8,
     reviewsCount: 430,
     price: 350,
-    image: '/images/product_oil_kit.jpg',
+    image: getAssetUrl('/images/product_oil_kit.jpg'),
     description: 'Infused with pure Nilgiri & Cajuput oil for maximum darkness and longevity.',
     longDescription: 'The ultimate aftercare duo to darken and protect your bridal henna stain. Includes 30ml concentrated botanical essential oil (Nilgiri eucalyptus, clove bud & cajuput) plus a 20g organic beeswax moisturizing balm to shield stains against premature water fading.',
     features: [
@@ -72,7 +74,7 @@ export const products = [
     rating: 4.9,
     reviewsCount: 610,
     price: 920,
-    image: '/images/product_bulk_box.jpg',
+    image: getAssetUrl('/images/product_bulk_box.jpg'),
     description: 'Specially packaged for Sangeet ceremonies, Karwa Chauth, and family gatherings.',
     longDescription: 'Perfect festive solution for Sangeet nights, Eid, Teej, Karwa Chauth, and community celebrations. Contains 20 freshly rolled artisan henna cones packed in an insulated thermal box with chilled packs.',
     features: [
