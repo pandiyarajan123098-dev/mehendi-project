@@ -72,7 +72,7 @@ export const products = [
     rating: 4.9,
     reviewsCount: 610,
     price: 920,
-    image: '/images/product_bulk_box.png',
+    image: '/images/product_bulk_box.jpg',
     description: 'Specially packaged for Sangeet ceremonies, Karwa Chauth, and family gatherings.',
     longDescription: 'Perfect festive solution for Sangeet nights, Eid, Teej, Karwa Chauth, and community celebrations. Contains 20 freshly rolled artisan henna cones packed in an insulated thermal box with chilled packs.',
     features: [

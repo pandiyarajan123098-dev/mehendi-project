@@ -169,7 +169,7 @@ export default function Header() {
               <div className="mobile-menu-actions">
                 <button
                   className="btn-primary"
-                  style={{ width: '100%', padding: '14px', fontSize: '0.82rem' }}
+                  style={{ width: '100%', padding: '14px', fontSize: '0.82rem', letterSpacing: '0.06em' }}
                   onClick={() => {
                     setMobileMenuOpen(false);
                     scrollToBooking('Bridal Mehendi');
@@ -179,22 +179,21 @@ export default function Header() {
                   <span>BOOK AN ARTIST</span>
                 </button>
 
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginTop: 10 }}>
+                <div className="mobile-account-row">
                   <button
-                    className="btn-secondary"
-                    style={{ padding: '12px', fontSize: '0.78rem' }}
+                    className="mobile-account-btn"
                     onClick={() => {
                       setMobileMenuOpen(false);
                       setIsAuthModalOpen(true);
                     }}
+                    title={user ? user.name : 'My Account'}
                   >
                     <User size={15} />
-                    <span>{user ? user.name.split(' ')[0] : 'My Account'}</span>
+                    <span className="truncate-text">{user ? user.name.split(' ')[0] : 'My Account'}</span>
                   </button>
 
                   <button
-                    className="btn-secondary"
-                    style={{ padding: '12px', fontSize: '0.78rem' }}
+                    className="mobile-account-btn"
                     onClick={() => {
                       setMobileMenuOpen(false);
                       setIsOrderHistoryOpen(true);
